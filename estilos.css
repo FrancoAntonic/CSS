@@ -1,0 +1,52 @@
+.fondo{
+background-color: blueviolet;
+}
+.miTexto{
+    font-size: 20px;
+    color: white;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
+.titulo{
+    font-size: 40px;
+    color: burlywood;
+}
+#principal{
+    font-size: 4em;
+}
+#titulos{
+    border: 2px solid black;
+    width: 65vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+.cards:hover{
+    background-color: chartreuse;
+}
+#cards-conteiner{
+    background-color: crimson;
+    width: 85vw;
+    margin:auto;
+    margin-top: 1.5em;
+    border: 6px solid rgb(13, 247, 91);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
